@@ -106,7 +106,7 @@ h1, h2 {
 }
 
 .carousel {
-    max-width: 55%;
+    max-width: 65%;
     margin-left: auto;
     margin-right: auto;
     border:rgba(212, 175, 55, 1) solid 20px;
@@ -115,13 +115,20 @@ h1, h2 {
 .carouseltxt  {
     position: absolute;
     justify-content: center;
-    top: 40%;
+    font-size: 70px;
+    top: 30%;
     width: 100%;
     color: #c8c8c8;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+
+.petit {
+    font-size: 40px;
+    line-height: 10px;
+   }
 
 .about {
     position: relative;
