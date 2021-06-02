@@ -82,6 +82,7 @@
     justify-content: center;
     display: flex;
     flex-direction: row;
+    font-size: 30px;
 }
 
 .img {
@@ -99,7 +100,7 @@ h1, h2 {
 }
 
 .carousel {
-    max-width: 50%;
+    max-width: 55%;
     margin-left: auto;
     margin-right: auto;
     border:rgba(212, 175, 55, 1) solid 20px;
@@ -109,9 +110,26 @@ h1, h2 {
     position: absolute;
     justify-content: center;
     top: 40%;
+    width: 100%;
     color: #c8c8c8;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     text-shadow: 0 1px 2px #d4af37;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about {
+    position: relative;
+    background-color: #d4af37 ;
+    text-align: justify;
+    top: 16px;
+}
+
+.table {
+    justify-content: center;
+    text-align: center;
+    border: #d4af37 solid 20px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }

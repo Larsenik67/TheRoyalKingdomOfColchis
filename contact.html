@@ -43,6 +43,23 @@
         </header>
         <!-- Add this to a seperate page, e.g. contact.html Contact the Royal Kingdom
         -->
+        <div class="formulaire my-5 container">
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input name="email" id="email" class="form-control" type="email">
+                </div>
+                <div class="form-group  mt-2">
+                    <label for="name">Your Name</label>
+                    <input name="name" id="name" class="form-control" type="email">
+                </div>
+                <div class="form-group  mt-2">
+                    <label>Write your message here</label>
+                    <textarea rows="10" cols="30" class="form-control" name="message"></textarea>
+                </div>
+                <button type="submit" class="mt-1 btn btn-primary btn-block">Submit</button>
+            </form>
+        </div>
         <p>
             Fill in the form below to contact the Royal Kingdom
         </p>
@@ -51,7 +68,7 @@
         <!-- Connect the Javascript file -->
         <footer>
             <hr class="footer">
-          </footer>
+        </footer>
         <script src="script.js"></script>
     </body>
 </html>
