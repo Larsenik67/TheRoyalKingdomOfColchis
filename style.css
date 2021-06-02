@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+/*NAV BAR*/
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+        color: #c8c8c8;
+    }
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: #03224C;
+    font-size: 30px;
+    font-family: 'Odibee Sans', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: #FFF;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    color: #FFF;
+    border-color: rgba(255, 255, 255, 1) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-light .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+}
+
+.bg-light {
+    background-color: #D4AF37 !important;
+    color: #FFF;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #FFF;
+}
+
+#site-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(212, 175, 55, 1)), url(https://www.thecollector.com/wp-content/uploads/2020/06/giulio-romano-olympian-gods-wall-painting-1-1280x720.jpg) !important;
+    background-position: center;
+    height: 100px;
+}
+
+/*FIN NAV BAR*/
+
+.boite {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    max-height: 450px;
+    border: black solid 2px;
+}
+
+h1, h2 {
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    letter-spacing: 5px;
+    
+}
+
+.carousel {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border:rgba(212, 175, 55, 1) solid 20px;
+}
+
+.carouseltxt  {
+    position: absolute;
+    justify-content: center;
+    top: 40%;
+    color: #c8c8c8;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 0 1px 2px #d4af37;
+    background-color: rgba(0, 0, 0, 0.4);
+}
