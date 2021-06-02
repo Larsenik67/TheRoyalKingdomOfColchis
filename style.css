@@ -77,6 +77,12 @@
 
 /*FIN NAV BAR*/
 
+ body {
+     background-image: url(https://cdn.shopify.com/s/files/1/0020/6123/8339/products/2075341357123.jpg?v=1552401203);
+     background-color:rgba(255,255,255,0.8);
+    background-blend-mode: color;
+    }
+
 .boite {
     text-align: center;
     justify-content: center;
@@ -132,4 +138,28 @@ h1, h2 {
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.royal a {
+    color:black;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+strong {
+    font-weight: normal;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
+}
+
+.form-group {
+    text-align: center;
 }
