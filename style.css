@@ -118,10 +118,9 @@ h1, h2 {
     top: 40%;
     width: 100%;
     color: #c8c8c8;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
-    text-shadow: 0 1px 2px #d4af37;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .about {
@@ -162,4 +161,8 @@ strong {
 
 .form-group {
     text-align: center;
+}
+
+footer {
+    background-color: #d4af37;
 }
