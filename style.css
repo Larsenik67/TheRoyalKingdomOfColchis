@@ -5,6 +5,10 @@
         color: white;
     }
 
+.nav-link {
+    text-align: center;
+}
+
 .navbar {
     position: relative;
     display: -ms-flexbox;
