@@ -4,17 +4,19 @@ function myFunction() {
     var email =document.getElementById('email').value;
     var name =document.getElementById('name').value;
     var message =document.getElementById('message').value;
-    console.log(email)
+    
     if(email === '') {
-        error.push('Veuillez renseigner votre email \n');
+        error.push('Please enter your email \n');
     } 
     if(name === '') {
-        error.push('Veuillez renseigner votre nom \n');
+        error.push('Please enter your name \n');
     } 
     if(message === '') {
-        error.push('Veuillez écrire votre message');
+        error.push('Please enter your message');
     } 
     if(error.length > 0) {
         alert(error);
+    } else {
+        alert('Your email has been sent')
     }
 }

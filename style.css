@@ -2,7 +2,7 @@
 
 /*NAV BAR*/
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-        color: #c8c8c8;
+        color: white;
     }
 
 .navbar {
@@ -66,7 +66,7 @@
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-    color: #FFF;
+    color: white;
 }
 
 #site-header {
@@ -106,7 +106,7 @@ h1, h2 {
 }
 
 .carousel {
-    max-width: 65%;
+    max-width: 66%;
     margin-left: auto;
     margin-right: auto;
     border:rgba(212, 175, 55, 1) solid 20px;
