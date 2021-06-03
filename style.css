@@ -177,8 +177,9 @@ strong {
 }
 
 footer {
+    height: 4%;
     background-color: #d4af37;
     min-width: 100%;
     position: absolute;
-    bottom: 0%;
+    bottom: auto;
 }
