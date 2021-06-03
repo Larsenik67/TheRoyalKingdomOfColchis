@@ -85,6 +85,7 @@
      background-image: url(https://cdn.shopify.com/s/files/1/0020/6123/8339/products/2075341357123.jpg?v=1552401203);
      background-color:rgba(255,255,255,0.8);
     background-blend-mode: color;
+    background-attachment: fixed;
     }
 
 .boite {
