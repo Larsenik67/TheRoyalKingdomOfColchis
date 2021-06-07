@@ -1,6 +1,6 @@
 var error =[];
 
-function myFunction() {
+function contact() {
     var email =document.getElementById('email').value;
     var name =document.getElementById('name').value;
     var message =document.getElementById('message').value;

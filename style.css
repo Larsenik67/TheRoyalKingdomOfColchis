@@ -82,7 +82,7 @@
 /*FIN NAV BAR*/
 
  body {
-     background-image: url(https://cdn.shopify.com/s/files/1/0020/6123/8339/products/2075341357123.jpg?v=1552401203);
+     background-image: url(https://cdn.shopify.com/s/files/1/0020/6123/8339/products/2075341357123.jpg);
      background-color:rgba(255,255,255,0.8);
      background-blend-mode: color;
      background-attachment: fixed;
@@ -147,6 +147,10 @@ h1, h2 {
     background-color: #d4af37 ;
     text-align: justify;
     top: 16px;
+}
+
+p {
+    text-indent: 50px;
 }
 
 .table {
