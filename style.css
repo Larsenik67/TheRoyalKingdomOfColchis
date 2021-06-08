@@ -89,10 +89,9 @@
     }
 
 .logo {
-    position: relative;
+    display: block;
     max-height: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    align-content: center;
 }
 
 .boite {
