@@ -82,7 +82,7 @@
 /*FIN NAV BAR*/
 
  body {
-     background-image: url(https://cdn.shopify.com/s/files/1/0020/6123/8339/products/2075341357123.jpg);
+     background-image: url(https://cdn.discordapp.com/attachments/386247319932239884/851860517073322024/Pattern.png);
      background-color:rgba(255,255,255,0.8);
      background-blend-mode: color;
      background-attachment: fixed;
@@ -90,7 +90,9 @@
 
 .logo {
     position: relative;
-    max-height: 60px;
+    max-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .boite {
